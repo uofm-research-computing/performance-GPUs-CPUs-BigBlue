@@ -4,8 +4,8 @@ This is a set of examples for using GPUs on the BigBlue using a simple Finite Di
 ## Running the tests
 On BigBlue, you can simply download this repo and submit by running:
 ```
-git clone 
-cd cpus-vs-gpus-bigblue
+git clone https://github.com/uofm-research-computing/performance-GPUs-CPUs-BigBlue.git
+cd performance-GPUs-CPUs-BigBlue
 sbatch run.sh
 ```
 
