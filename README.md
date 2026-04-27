@@ -40,7 +40,10 @@ This one will take some time since the convergence tolerance is much smaller, bu
 
 ## Citations and other reading material
 [NVHPC openmp from NVIDIA sdk guide](https://docs.nvidia.com/hpc-sdk/compilers/hpc-compilers-user-guide/index.html#openmp-use)
+
 [a much better description of the FDM algorithm using a much better version of the CUDA code](https://enccs.github.io/OpenACC-CUDA-beginners/2.02_cuda-heat-equation/)
+
 [AMD HIP examples](https://github.com/amd/HPCTrainingExamples/tree/main/HIP-OpenMP)
+
 [Intel OneAPI OpenMP offloading tuning guide](https://www.intel.com/content/www/us/en/docs/oneapi/optimization-guide-gpu/2025-2/openmp-offloading-tuning-guide.html)
 
