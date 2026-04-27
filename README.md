@@ -1,6 +1,8 @@
 # Comparing the performance of using GPUs vs CPUs
 This is a set of examples for using GPUs on the BigBlue using a simple Finite Difference Method (FDM) solution of the heat equation. Primarily this is just to show the simplest parallelization strategies, transform and reduce, to decrease runtime. The examples are compiled using the nvhpc module on the cluster. Most of the examples are in C, but a Fortran version is also included. The point is to show off a cross platform library, OpenMP, that can be used on other GPUs. For example, you could use the AMD HIP or Intel OneAPI libraries to compile any of the OpenMP codes and rerun the tests. The only exception is the cuda.c version that can only run on NVIDIA GPUs. The results might vary depending on the dimensions, seed, and GPU. For this example I use a 7000 by 7000 grid with a 1000 iteration depth on the igpuq partition of BigBlue using 20 cores on an NVIDIA V100 GPU so the job completes quickly.
 
+This is a continuation of a previous seminar [here](https://github.com/uofm-research-computing/compiling-and-running-gpu-accelerated-work)
+
 ## Running the tests
 On BigBlue, you can simply download this repo and submit by running:
 ```
